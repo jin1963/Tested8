@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G3X24 Ultra Super Light Staking</title>
+</head>
+<body>
+    <h1>G3X24 Ultra Super Light Staking</h1>
+    <button id="connectWallet">Connect Wallet</button><br><br>
+
+    <input type="number" id="stakeAmount" placeholder="Amount to stake">
+    <select id="stakeDuration">
+        <option value="90">90 Days</option>
+        <option value="180">180 Days</option>
+        <option value="270">270 Days</option>
+        <option value="365">365 Days</option>
+    </select><br><br>
+
+    <button id="approveButton">Approve</button>
+    <button id="stakeButton">Stake</button><br><br>
+
+    <input type="number" id="claimIndex" placeholder="Stake Index">
+    <button id="claimButton">Claim</button>
+    <button id="unstakeButton">Unstake</button>
+
+    <p id="status"></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.8.2/dist/web3.min.js"></script>
+    <script src="abi.js"></script>
+    <script src="ultra_super_light.js"></script>
+</body>
+</html>
